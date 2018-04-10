@@ -1,0 +1,36 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.values{
+    margin: 0 auto;
+    width: 350px;
+    display: block;
+}
+
+.container{
+    margin: 0 auto;
+    width: 500px;
+    border: solid black 1px;
+}
+.forms{
+    margin: 0 auto;
+    display: block;
+    width: 250px;
+}
+
+p{
+    display: inline-block;
+    margin:0 auto;
+}
+img {
+    width: 200px;
+    margin: 0 auto;
+    display: block;
+    padding: 30px;
+}
+form{
+    display: inline-block;
+    margin: 10px;
+}

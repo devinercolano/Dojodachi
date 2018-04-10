@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+    <link rel="stylesheet" href="~/css/style.css"/>
+
+</head>
+<body>
+    <div class="wrapper">
+        <div class="values">
+            <p>Fullness: @ViewBag.fullness</p>
+            <p>Happiness: @ViewBag.happiness</p>
+            <p>Meals: @ViewBag.meals</p>
+            <p>Energy: @ViewBag.energy</p>
+        </div>
+        <div class="container">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Struthio_camelus_portrait_Whipsnade_Zoo.jpg/220px-Struthio_camelus_portrait_Whipsnade_Zoo.jpg" alt="A picture of an ostrich">
+            <p>@ViewBag.printString </p>
+        </div>
+        <div class="forms">
+            <form action="/feed" method="post">
+                <input type="submit" value="Feed">
+            </form>
+            <form action="/play" method="post">
+                <input type="submit" value="Play">
+            </form>
+            <form action="/work" method="post">
+                <input type="submit" value="Work">
+            </form>
+            <form action="/sleep" method="post">
+                <input type="submit" value="sleep">
+            </form>
+        </div>
+    </div>
+</body>
+</html>
